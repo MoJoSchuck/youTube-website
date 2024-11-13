@@ -1,0 +1,12 @@
+.elf-a-column {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.elf-a {
+    background-color: lightblue;
+}
+
+.elf-a2 {
+    background-color: lightcoral;
+}

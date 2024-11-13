@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flex-12c {
+    background-color: lightcoral;
+
+}

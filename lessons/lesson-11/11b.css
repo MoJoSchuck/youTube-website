@@ -1,0 +1,16 @@
+.grid-11b {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.elf-b1 {
+    background-color: lightblue;
+}
+
+.elf-b2 {
+    background-color: lightcoral;
+}
+
+.elf-b3 {
+    background-color: lightblue;
+}
