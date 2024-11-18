@@ -1,0 +1,53 @@
+body {
+    height: 3000px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.shirt {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.discount {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    padding: 5px 8px;
+    font-size: 12px;
+
+}
+
+.modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.add-to-card-button {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px 8px;
+    background-color: white;
+    border: 1px solid black;
+
+}
