@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-12b {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.flex-12b1 {
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.flex-12b2 {
+    background-color: lightblue;
+    width: 75px;
+}

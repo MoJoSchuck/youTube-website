@@ -1,0 +1,41 @@
+body {
+    height: 3000px;
+}
+
+.square {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -12px;
+    left: -12px;
+    font-family: Arial;
+
+}
+
+.time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 3px 5px;
+    font-family: Arial;
+    font-size: 12px;
+
+}
