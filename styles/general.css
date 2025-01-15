@@ -1,19 +1,22 @@
+/* General text styles */
 p {
-    font-family: Roboto, Arial;
+    font-family: Roboto, Arial; /* Primary font: Roboto, fallback: Arial */
     margin-top: 0;
     margin-bottom: 0;
-  }
-  
-  body {
-    margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
+}
+
+/* Body layout and background */
+body {
+    margin: 0; /* Remove default browser margin */
+    padding-top: 80px; /* Account for fixed header */
+    padding-left: 96px; /* Space for sidebar */
     padding-right: 24px;
     background-color: rgb(248, 248, 248);
-  }
+}
 
-  @media (min-width: 1200.1px) {
+/* Adjust layout for larger screens */
+@media (min-width: 1200.1px) {
     body {
-      margin-left: 168px;
+        margin-left: 168px;
     }
-  }
+}
